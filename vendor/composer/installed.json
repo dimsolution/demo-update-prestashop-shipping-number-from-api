@@ -1,0 +1,32 @@
+[
+    {
+        "name": "prestashop/prestashop-webservice-lib",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PrestaShop/PrestaShop-webservice-lib.git",
+            "reference": "dc2c41e1066fe20a96dfdc449c08174bb21a06a5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PrestaShop/PrestaShop-webservice-lib/zipball/dc2c41e1066fe20a96dfdc449c08174bb21a06a5",
+            "reference": "dc2c41e1066fe20a96dfdc449c08174bb21a06a5",
+            "shasum": ""
+        },
+        "time": "2015-07-23 19:42:08",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "OSL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "PrestaShop SA",
+                "email": "contact@prestashop.com"
+            }
+        ],
+        "description": "PrestaShop Webservice access library"
+    }
+]

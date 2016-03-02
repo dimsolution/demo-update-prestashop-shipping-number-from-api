@@ -1,0 +1,5 @@
+{
+    "require": {
+        "Prestashop/Prestashop-webservice-lib": "dev-master"
+    }
+}

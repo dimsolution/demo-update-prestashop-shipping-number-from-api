@@ -4,13 +4,13 @@
  * @description: php import.php '123456' 'TRACKINGNUMBER' (où '123456' est le numéro de commande et 'TRACKINGNUMBER' le numéro de suivi)
  * @required: Install PSWebServiceLibrary.php from github or composer
  * @package: Prestashop 
- * @copyright: 2016 Wistiki
+ * @copyright: 2016 Dimitri 
  */
 
 #require 'PSWebServiceLibrary.php';
 require 'vendor/prestashop/prestashop-webservice-lib/PSWebServiceLibrary.php';
 
-$webService = new PrestaShopWebservice('http://local.wistiki.com', 'UYAHT5DS1CEA38GY4W9VMCD8UEMVLVGA', false);   
+$webService = new PrestaShopWebservice('http://local.website.com', 'UYAHT5DS1CEA38GY4W9VMCD8UEMVLVGA', false);   
 
 if(!isset($argv[1]) && !isset($argv[2]))
   die("\033[31mError:\033[0m Arguments mandatory");
